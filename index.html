@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laila & Kareem Wedding</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="hero">
+        <div class="hero-content">
+            <p class="subtitle">TOGETHER WITH THEIR FAMILIES</p>
+            <h1>Laila & Kareem</h1>
+            <p class="date">MAY 2ND, 2026</p>
+            <div class="scroll-down">SCROLL</div>
+        </div>
+    </section>
+
+    <section class="video-section">
+        <div class="container">
+            <h2>OUR MOMENTS</h2>
+            <div class="video-wrapper">
+                <video controls poster="cover.jpg">
+                    <source src="wedding-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <section class="countdown-section">
+        <h3>Counting the days to our forever</h3>
+        <div id="timer">
+            <div class="time-block"><span id="days">00</span>Days</div>
+            <div class="time-block"><span id="hours">00</span>Hours</div>
+            <div class="time-block"><span id="minutes">00</span>Minutes</div>
+            <div class="time-block"><span id="seconds">00</span>Seconds</div>
+        </div>
+    </section>
+
+    <section class="venue">
+        <h2>WHEN & WHERE</h2>
+        <div class="venue-cards">
+            <div class="card">
+                <h3>Wedding Party</h3>
+                <p>6:00 PM</p>
+                <p>Armed Forces Hotel</p>
+                <p>Al Arish, North Sinai</p>
+                <a href="https://goo.gl/maps/..." class="btn">GET DIRECTIONS</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="rsvp">
+        <h2>RSVP</h2>
+        <p>Please respond by April 1st, 2026</p>
+        <form class="rsvp-form">
+            <input type="text" placeholder="GUEST NAME(S)" required>
+            <select required>
+                <option value="" disabled selected>WILL YOU ATTEND?</option>
+                <option>Joyfully Accept</option>
+                <option>Regretfully Decline</option>
+            </select>
+            <button type="submit" class="btn-submit">CONFIRM RSVP</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
